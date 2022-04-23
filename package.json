@@ -1,0 +1,17 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "fot testing purposes",
+  "main": "index.js",
+  "scripts": {
+    "test1": "tsc test.ts -t ES5",
+    "test2": "tsc test.ts --removeComments",
+    "test3": "tsc test.ts --outDir compiled"
+  },
+  "author": "Maria",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
